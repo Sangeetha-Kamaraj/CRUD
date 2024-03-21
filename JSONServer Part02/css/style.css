@@ -1,0 +1,58 @@
+.container{
+display: flex;
+flex-direction: row;
+
+}
+.form
+{
+    width:30vw;
+    padding: 5%;
+    label{
+font-size: larger;
+    }
+    .inputTodo{
+        width:100%
+    }
+}
+
+
+
+#todos {
+
+    display: flex;
+    padding: 1vmin;
+    margin: 1vmin;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+
+    div{
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+        flex-direction: row;
+        margin: 10px;
+        
+        button
+        {
+            background-color: none;
+            border: none;
+            font-size: medium;
+            border-bottom: 2px solid black;
+        }
+    }
+    }
+    
+    .Ongoing 
+    
+    {
+    background-color: rgba(255, 255, 0, 0.703);
+    }
+
+    .Pending
+    {
+        background-color: rgba(255, 0, 0, 0.516);
+    }
+    .Completed{
+        background-color: rgba(0, 128, 0, 0.575);
+    }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+    <div id="todos"></div>
+        <div class="form">
+            <form id="todoForm">
+                <div>
+                    <label for="Task">Task</label>
+                    <input type="text" id="Task" class="inputTodo" name="Task" required/>
+                </div>
+                <div>
+                    <label for="UserName">UserName</label>
+                    <input type="text" id="UserName" class="inputTodo" name="UserName" required/>
+                     </div>
+                     <div>
+                        <label for="deadline">Deadline</label>
+                        <input type="date" id="deadline" class="inputTodo" name="deadline" required/>
+                     </div>
+                     <div>
+                        <input type="reset" value="Clear"/><input type="submit" value="Submit" />
+                     </div>
+
+            </form>
+        </div>
+</div>
+   <script src="script.js"></script> 
+</body>
+</html>
